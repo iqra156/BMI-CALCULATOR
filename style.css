@@ -1,0 +1,106 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: wheat;
+    padding: 40px;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px 40px;
+    background: #eee;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #howtouse {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0 5px;
+    display: block;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  ::placeholder {
+    color: #999;
+  }
+  
+  .unit-toggle {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .unit-toggle label {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  #ft-in-inputs {
+    display: flex;
+    gap: 10px;
+    margin-top: -5px;
+  }
+  
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: wheat;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .bmi-output {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
